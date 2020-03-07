@@ -35,7 +35,7 @@ public class Point {
         System.out.println (point.getX ());
         System.out.println (point.getY ());
 
-        Math.sqrt (Math.pow (( x - point.getX ( )), 2) + Math.pow ((y - point.getY ( )), 2));
+        System.out.println (Math.sqrt (Math.pow (( x - point.getX ( )), 2) + Math.pow ((y - point.getY ( )), 2)));
     }
 
     }
