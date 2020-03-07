@@ -12,7 +12,7 @@ public class Point {
     }
 
     public int getX() {
-        return x;
+        return this.x;
     }
 
     public void setX(int x) {
@@ -20,15 +20,23 @@ public class Point {
     }
 
     public int getY() {
-        return y;
+        return this.y;
     }
 
     public void setY(int y) {
         this.y = y;
     }
 
-    public double Dystans(Point point) {
 
-        return Math.sqrt (Math.pow ((x - point.getX ( )), 2) + Math.pow ((y - point.getY ( )), 2));
+    public void distance(Point point){
+        System.out.println (this.x);
+        System.out.println (this.y);
+
+        System.out.println (point.getX ());
+        System.out.println (point.getY ());
+
+        Math.sqrt (Math.pow (( x - point.getX ( )), 2) + Math.pow ((y - point.getY ( )), 2));
     }
-}
+
+    }
+
